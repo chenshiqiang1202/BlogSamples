@@ -1,2 +1,3 @@
 # BlogSamples
-我的博客http://www.cnblogs.com/John-Chen/例子
+我的博客例子
+http://www.cnblogs.com/John-Chen/
