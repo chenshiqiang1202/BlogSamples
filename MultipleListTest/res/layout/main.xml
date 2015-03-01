@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="6dp"
+        >
+
+    <Button
+            android:id="@+id/btnMethod1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="实现方式1(没问题)"
+            android:gravity="center"
+            android:onClick="onClick"
+            />
+
+    <Button
+            android:id="@+id/btnMethod2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="实现方式2(方式1优化，有问题)"
+            android:gravity="center"
+            android:onClick="onClick"
+            />
+
+    <Button
+            android:id="@+id/btnMethod3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="实现方式3(通过设置ViewType的方式，没问题)"
+            android:gravity="center"
+            android:onClick="onClick"
+            />
+
+</LinearLayout>
+
